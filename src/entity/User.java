@@ -1,0 +1,29 @@
+package entity;
+
+import annotation.Entity;
+
+/**
+ * Created by Asus on 28.05.2017.
+ */
+@Entity
+public class User {
+
+    private String login;
+    private String password;
+
+    public String getLogin() {
+        return login;
+    }
+
+    public void setLogin(String login) {
+        this.login = login;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+}
